@@ -7,50 +7,60 @@
     <style>
         .contaneir{
             background: transparent;
-            border: 1px solid  rgb(0, 93, 170);;
             display: flex;
             justify-content: center;
             width: 50%;
             margin-left: 25%;
-            height: 250px;
+            height: 350px;
             margin-top: 10%;
             flex-direction: column;
+            box-shadow: 1px 2px 4px #000;
         }
         h1{
-            background-color:  rgb(0, 93, 170);
-            color: #fff;
-            padding: 10px;
+            color: #000;
+            padding:5px;
             text-align: center;
-            margin-top: -10px;
+            position: absolute;
+            width: 48%;
+            margin-top: -20%;
+            text-transform: uppercase;
         }
         p{
             margin: 10px;
-            background-color:#07e9e9;
+            border-bottom: 1px solid #000;
             padding: 10px;
-            color: #fff;
+            color: #000;
+            text-transform: uppercase;
         }
         button{
-            margin-left: 40%;
-            top: 52%;
+            margin-left: 20%;
+            top: 70%;
             position: absolute;
             padding: 10px;
             border: none;
             outline: none;
-            background: blue;
+            background-color: rgba(0,0,0,0.9);
             color: #fff;
             border-radius: 5px;
+            cursor: pointer;
+            font-family: sans-serif;
 
+        }
+        h2{
+            position: absolute;
+            margin-left: 10px;
         }
     </style>
 </head>
 <body>
     <div class="contaneir">
-        <h1>Contacao</h1><br>
+        <h1>Contaçao</h1><br>
         <div class="content">
             <p>Tipo de seguro: Automove</p>
-            <p>prazo: 200 mt</p>
-            <h2>total: 300 mt</h2>
-            <button>APLICAR</button>
+            <p>prazo: 01/01/2025</p>
+            <p>valor: 400,00 mt</p>
+            <h2>total: 450 mt</h2>
+            <button>Efetuar pagamento</button>
         </div>
     </div>
 </body>
