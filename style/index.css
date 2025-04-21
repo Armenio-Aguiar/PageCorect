@@ -88,9 +88,6 @@ section{
         text-align: center;
         height: 470px;
     }
-    .contaneir .box:hover{
-        transform:rotate(10px)
-    }
     .contaneir .box:before{
         content: '';
         width: 100%;
