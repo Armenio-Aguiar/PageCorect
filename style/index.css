@@ -208,3 +208,10 @@ section{
     margin-left: -10px;
     position: absolute;
 }
+.contaneir .boxConten:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+body:hover .boxConten{
+    transition: 0.5s;
+}
