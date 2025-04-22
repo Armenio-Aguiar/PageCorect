@@ -142,7 +142,8 @@ section{
         background: #028bfc;
         color: #fff;
         width: 300px;
-        margin-left: 15px;
+        margin-left: -25px;
+        top: -220px;
         position: relative;
         border-radius: 0px 0px 50px 0px;
         z-index: -2;
@@ -208,10 +209,12 @@ section{
     margin-left: -10px;
     position: absolute;
 }
-.contaneir .boxConten:hover{
-    transform: scale(1.1);
-    transition: 0.5s;
+.contaneir .boxConten {
+    transition: transform 0.5s ease; /* Adicione isso */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-body:hover .boxConten{
-    transition: 0.5s;
+.contaneir .boxConten:hover {
+    transform: scale(1.05); /* Ou outro valor desejado */
 }
